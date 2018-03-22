@@ -1,0 +1,41 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <repositories>
+
+	<repository>
+
+	<id>neotys-public-releases</id>
+
+     <url>http://maven.neotys.com/content/repositories/releases/</url>
+
+   		<releases><enabled>true</enabled></releases>
+
+     <snapshots><enabled>false</enabled></snapshots>
+
+	</repository>
+
+</repositories>
+<dependencies>
+ <dependency>
+    <groupId>javax.media</groupId>
+    <artifactId>jmf</artifactId>
+    <version>2.1.1e</version>
+</dependency>
+	<dependency>
+
+		<groupId>com.neotys.rest</groupId>
+
+		<artifactId>neotys-rest-api-dataexchange-client-olingo</artifactId>
+
+		<version>1.0.3</version>
+
+		
+	</dependency>
+
+</dependencies>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.neotys.rtsp.common</groupId>
+  <artifactId>RTSPprotocol</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>RTSP</name>
+  <description>protocol RTSP</description>
+</project>
